@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Chris | Cho</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" href="main.css">
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     </head>
+    
     <body>
-        <div class="topblock">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Cho</a>
+        <!--Navbar-->
+        <nav class="navbar sticky-top navbar-expand-lg" id="veryTop">
+            <a class="navbar-brand" href="#veryTop">Cho</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto navbar-right">
+                <ul class="navbar-nav ml-auto navbar-right">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#midblock">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#botblock">Contact</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -32,12 +36,37 @@
                     </li>
                 </ul>
             </div>
-        </nav> 
+        </nav>
+        <!--top of the page. Navbar inside-->
+        <div class="jumbotron" id="jumbotron">
+            <!--jumbotron-->
+            <h1 class="display-4">Chris Cho</h1>
+            <p class="lead">Full Stack Developer. React, Node.js Qualifications....</p>
+            <hr class="my-4">
+            <p>Python soon...</p>
+            <a href="#firstBlock" role="button"><i class="far fa-arrow-alt-circle-down"></i></a>
+        </div>
+        <div class="topblock" id="firstBlock">
             <h1>Chris</h1>
-            <h2>Cho</h2>
         </div>
 
-        <div class="midblock">
+        <div class="aboutme">
+            <p>Write stuff about me</p>
+            <div class="progress">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="progress">
+                <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="progress">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+        </div>
+
+        <div class="midblock" id="midblock">
             <h1>My projects</h1>
 
             <!--project thumbnails-->
@@ -77,7 +106,7 @@
             
         </div>
 
-        <div class="botblock">
+        <div class="botblock" id="botblock">
             <h1>contact me</h1>
         </div>
         

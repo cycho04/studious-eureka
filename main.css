@@ -1,3 +1,39 @@
+/*globals*/
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #0B1C21;
+    color: #45A29E;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.navbar{
+    background: #0B1C21;
+    height: 100%;
+}
+
+.navbar-brand {
+    color: #45A29E;
+}
+
+.nav-link {
+    color: #45A29E;
+}
+
+/*Heading*/
+.jumbotron {
+    height: 100vh;
+    margin: auto;
+    background-color: transparent;
+}
+
+
+/*Body*/
+.aboutme {
+    height: 100vh;
+}
+
 .topblock {
     background-color: antiquewhite;
     height: 100vh;
