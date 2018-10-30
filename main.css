@@ -49,6 +49,10 @@ body {
     height: 100vh;
 }
 
+.content {
+    text-align: center;
+}
+
 /*
 #0B0C10
 #1F2833
