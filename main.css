@@ -34,18 +34,19 @@ body {
     height: 100vh;
 }
 
+.inside {
+    padding-top: 100px;
+}
+
 .topblock {
-    background-color: antiquewhite;
     height: 100vh;
 }
 
 .midblock {
-    background-color: slategray;
     height: 100vh;
 }
 
 .botblock{
-    background-color: indianred;
     height: 100vh;
 }
 
