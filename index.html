@@ -10,44 +10,69 @@
     
     <body>
         <nav class="navbar sticky-top navbar-expand-lg">
-                <a class="navbar-brand" href="#">Cho</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto navbar-right">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#aboutme">About</a>
-                        </li>
+            <a class="navbar-brand" href="#"><i class="fas fa-brain"></i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto navbar-right">
+                    <li class="nav-item"><a class="nav-link" href="#aboutme">About</a></li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#midblock">Game Color</a>
+                        <a class="dropdown-item" href="#midblock">PG Tiles</a>
                         
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Projects
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#midblock">Game Color</a>
-                                <a class="dropdown-item" href="#midblock">PG Tiles</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#midblock">Now & Forever Love</a>
-                            </div>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#botblock">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+                        <div class="dropdown-divider"></div>
+                        
+                        <a class="dropdown-item" href="#midblock">Now & Forever Love</a>
+                    </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#botblock">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
+
         <div id="landingpage">
             <!--top of the page-->
             <div class="jumbotron" id="jumbotron">
                 <!--jumbotron-->
-                <h1 class="display-4">Chris Cho</h1>
-                <p class="lead">Full Stack Developer. React, Node.js Qualifications....</p>
+                <h1 class="display-6">Chris Ch<i class="fab fa-react"></i></h1>
+                <p class="lead">Full Stack Developer.</p>
+                <p>{ React }</p>
                 <hr class="my-4">
-                <p>Python soon...</p>
                 <a href="#firstBlock" role="button"><i class="far fa-arrow-alt-circle-down"></i></a>
-            </div>     
+            </div> 
+                
+            <div>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-medium-m"></i> 
+                <i class="fab fa-quora"></i>
+                <i class="fab fa-stack-overflow"></i>
+                <i class="fab fa-tumblr-square"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+
+            <p>Saved icons: 
+                <i class="fas fa-map-marked-alt"></i>
+                <i class="fas fa-map-marker-alt"></i>
+                <i class="fas fa-map-signs"></i>
+                <i class="fas fa-mobile-alt"></i>
+                <i class="fab fa-node-js"></i>
+                <i class="fab fa-node"></i>
+                <i class="fab fa-npm"></i>
+                <i class="fas fa-rss-square"></i>
+                <i class="fab fa-sass"></i>
+                <i class="fas fa-sign"></i>
+                <i class="fab fa-skype"></i>
+                <i class="fab fa-slack"></i>
+                <i class="fab fa-snapchat"></i>
+                <i class="fas fa-trash-alt"></i>
+                <i class="fas fa-user-circle"></i>
+
+            </p>
         </div>
         
         <div class="topblock container" id="firstBlock">
@@ -63,6 +88,7 @@
                 </div>
             </div> 
         <a href="#aboutme" role="button"><i class="far fa-arrow-alt-circle-down"></i></a>  
+        <a href="#landingpage" role="button"><i class="far fa-arrow-alt-circle-up"></i></a>
         </div>
 
         <div class="aboutme container" id="aboutme">
@@ -84,10 +110,11 @@
                     </ul>
                 </div>
             </div> 
-            <a href="#midblock" role="button"><i class="far fa-arrow-alt-circle-down"></i></a>  
+            <a href="#midblock" role="button"><i class="far fa-arrow-alt-circle-down"></i></a> 
+            <a href="#firstBlock" role="button"><i class="far fa-arrow-alt-circle-up"></i></a> 
         </div>
 
-        <div class="midblock class" id="midblock">
+        <div class="midblock container" id="midblock">
             <div class="row inside">
                 <h1>My projects</h1>
             </div>
@@ -97,13 +124,12 @@
                     <div class="card text-center" style="width: 18rem;">
                         <img class="card-img-top" src="https://images.unsplash.com/photo-1540153448870-af780343526e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=156b02ddcd899f8e70270bf6c4f57932&auto=format&fit=crop&w=500&q=60" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Color Game</h5>
+                            <h5 class="card-title">Music Playlist App</h5>
                             <p class="card-text">
-                                One of my first small projects. A simple color guessing game. 
-                                (HTML, CSS, JS)
+                                Online youtube playlist of calm study-music.
                             </p>
-                            <a href="#" class="btn btn-primary">View Live</a>
-                            <a href="#" class="btn btn-primary">Source Code</a>
+                            <a href="#" class="btn btn-primary"><i class="fas fa-headphones"></i> View Live</a>
+                            <a href="#" class="btn btn-primary"><i class="fab fa-itunes-note"></i> Source Code</a>
                         </div>
                     </div> 
                 </div>
@@ -112,13 +138,19 @@
                     <div class="card text-center" style="width: 18rem;">
                         <img class="card-img-top" src="https://images.unsplash.com/photo-1517232115160-ff93364542dd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=be5cc5a49c301ebac06d0fea64349f3f&auto=format&fit=crop&w=500&q=60" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Pai Gow Tiles</h5>
+                            <h5 class="card-title">Pai Gow Tiles (React)</h5>
                             <p class="card-text">
-                                Generates random hands for this chinese domino game.
-                                Follows house way for ParkWest Lotus.
+                                Generates random hands from a deck of 32 unique tiles.
+                                Currently features:
+                                <ul>
+                                    <li>House way</li>
+                                    <li>Value of low/high hand</li>
+                                    <li>Value of each tile</li>
+                                    <li>Recognizes and Identifies Pairs</li>
+                                </ul>
                             </p>
-                            <a href="#" class="btn btn-primary">View Live</a>
-                            <a href="#" class="btn btn-primary">Source Code</a>
+                            <a href="#" class="btn btn-primary"><i class="fas fa-dice"></i> View Live</a>
+                            <a href="#" class="btn btn-primary"><i class="fas fa-dna"></i> Source Code</a>
                         </div>
                     </div> 
                 </div>
@@ -131,13 +163,14 @@
                             <p class="card-text">
                                 E-commerce
                             </p>
-                            <a href="#" class="btn btn-primary">View Live</a>
-                            <a href="#" class="btn btn-primary">Source Code</a>
+                            <a href="#" class="btn btn-primary"><i class="fas fa-globe"></i> View Live</a>
+                            <a href="#" class="btn btn-primary"><i class="fas fa-cogs"></i> Source Code</a>
                         </div>
                     </div> 
                 </div>
             </div>
             <a href="#botblock" role="button"><i class="far fa-arrow-alt-circle-down"></i></a>
+            <a href="#aboutme" role="button"><i class="far fa-arrow-alt-circle-up"></i></a>
         </div>
 
         <div class="botblock container" id="botblock">
@@ -152,7 +185,7 @@
                     <p>something else goes here</p>
                 </div>
             </div>
-            
+            <span>Back to the top</span>
             <a href="#landingpage" role="button"><i class="fas fa-angle-double-up"></i></a>
         </div>
 
