@@ -26,40 +26,29 @@ body {
     color: #45A29E;
 }
 
-/*Heading*/
-.jumbotron {
-    height: 100vh;
-    margin: auto;
-    background-color: transparent;
-    font-size: 2.5em;
+.myname {
+    font-size: 11.0em;
+}
+.fa-react{
+    font-size: 80%;
 }
 
-.display-6 {
-    font-size: 2.5em;
+.fa-basketball-ball {
+    font-size: 75%;
 }
 
 /*Body*/
-.aboutme {
-    height: 100vh;
-}
-
 .inside {
     padding-top: 100px;
 }
 
-.topblock {
+
+.test1 {
+    color: #C5C6C7;
+}
+.container {
     height: 100vh;
 }
-
-.midblock {
-    height: 100vh;
-}
-
-.botblock{
-    height: 100vh;
-}
-
-
 /*
 #0B0C10
 #1F2833
