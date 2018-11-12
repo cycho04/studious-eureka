@@ -42,6 +42,9 @@ body {
     padding-top: 100px;
 }
 
+.project {
+    height: 70vh;
+}
 
 .test1 {
     color: #C5C6C7;
