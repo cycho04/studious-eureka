@@ -33,7 +33,7 @@ body {
 /*rotating React sign*/
 .fa-react{
     font-size: 80%;
-    -webkit-animation: rotation 4s infinite linear;
+    -webkit-animation: rotation 6s infinite linear;
 }
 @-webkit-keyframes rotation {
     from {-webkit-transform: rotate(0deg);}
@@ -49,8 +49,16 @@ body {
     padding-top: 100px;
 }
 
+.card-body{
+    background: #0B1C21;
+}
+
+.card {
+    border-color: #45A29E;
+}
 .project {
-    height: 70vh;
+    height: 50vh;
+    width: 33vw;
 }
 
 .test1 {
